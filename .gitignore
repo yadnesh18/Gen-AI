@@ -1,0 +1,43 @@
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+*.env
+
+# Maven build output
+target/
+*.jar
+*.war
+*.ear
+
+# Logs
+logs/
+*.log
+*.log.gz
+
+# macOS & OS metadata
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE & Editor files
+.idea/
+*.iml
+.vscode/
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+
+# Frontend builds & dependencies
+**/node_modules/
+**/dist/
+**/dist-ssr/
+**/.env
+**/.env.*
+!**/.env.example
